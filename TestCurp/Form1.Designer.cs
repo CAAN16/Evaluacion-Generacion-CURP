@@ -42,17 +42,17 @@
             ctlCurp1.Nombre = "";
             ctlCurp1.PrimerApellido = "";
             ctlCurp1.SegundoApellido = "";
-            ctlCurp1.Size = new Size(790, 428);
+            ctlCurp1.Size = new Size(790, 342);
             ctlCurp1.TabIndex = 0;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(832, 450);
+            ClientSize = new Size(832, 344);
             Controls.Add(ctlCurp1);
             Name = "Form1";
-            Text = "Aplicación Curp";
+            Text = "Generar CURP";
             ResumeLayout(false);
         }
 

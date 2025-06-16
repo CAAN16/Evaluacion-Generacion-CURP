@@ -103,14 +103,19 @@
             char nombresConsonanteInterna = Nombre.Substring(1).ToUpper()
                 .FirstOrDefault(c => "BCDFGHJKLMNPQRSTVWXYZ".Contains(c));
 
-            curpGenerada = $"{primerLetraApellido}{primerVocal}{primerLetraSegundoApellido}{primerLetraNombre}{fechaNacimiento}{genero}{estado}{primerApellidoConsonanteInterna}{segundoApellidoConsonanteInterna}{nombresConsonanteInterna}00";
+            var random = new Random();
+            string caractRandom = string.Concat(
+                Enumerable.Range(0, 2)
+                    .Select(_ => (char)random.Next(48, 91)) // 48-57: 0-9, 65-90: A-Z
+                    .Select(c => char.IsLetterOrDigit(c) ? c : (char)random.Next(65, 91)) // Asegura letra/dígito
+            );
+            curpGenerada = $"{primerLetraApellido}{primerVocal}{primerLetraSegundoApellido}{primerLetraNombre}{fechaNacimiento}{genero}{estado}{primerApellidoConsonanteInterna}{segundoApellidoConsonanteInterna}{nombresConsonanteInterna}{caractRandom}";
         }
 
         private void txtNombre_TextChanged(object sender, EventArgs e)
         {
             GenerarCurp();
             MostrarCurp();
-
         }
 
         private void txtPrimerApellido_TextChanged(object sender, EventArgs e)

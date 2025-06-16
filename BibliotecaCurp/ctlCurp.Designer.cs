@@ -49,18 +49,18 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Black", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(21, 24);
+            label1.Location = new Point(105, 15);
             label1.Name = "label1";
-            label1.Size = new Size(234, 31);
+            label1.Size = new Size(566, 31);
             label1.TabIndex = 0;
-            label1.Text = "Generación de Curp";
+            label1.Text = "Bienvenido a la App de para Generación de CURP";
             // 
             // txtNombre
             // 
             txtNombre.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtNombre.Location = new Point(21, 104);
             txtNombre.Name = "txtNombre";
-            txtNombre.PlaceholderText = "Ej Ricardo";
+            txtNombre.PlaceholderText = "Ej Carlos";
             txtNombre.Size = new Size(234, 30);
             txtNombre.TabIndex = 1;
             txtNombre.TextChanged += txtNombre_TextChanged;
@@ -92,7 +92,7 @@
             txtPrimerApellido.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtPrimerApellido.Location = new Point(288, 104);
             txtPrimerApellido.Name = "txtPrimerApellido";
-            txtPrimerApellido.PlaceholderText = "Ej Moreno";
+            txtPrimerApellido.PlaceholderText = "Ej Abrego";
             txtPrimerApellido.Size = new Size(234, 30);
             txtPrimerApellido.TabIndex = 6;
             txtPrimerApellido.TextChanged += txtPrimerApellido_TextChanged;
@@ -113,7 +113,7 @@
             txtSegundoApellido.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtSegundoApellido.Location = new Point(551, 104);
             txtSegundoApellido.Name = "txtSegundoApellido";
-            txtSegundoApellido.PlaceholderText = "Ej Moreno";
+            txtSegundoApellido.PlaceholderText = "Ej Nuñez";
             txtSegundoApellido.Size = new Size(234, 30);
             txtSegundoApellido.TabIndex = 8;
             txtSegundoApellido.TextChanged += txtSegundoApellido_TextChanged;
@@ -188,20 +188,20 @@
             label8.Font = new Font("Segoe UI Black", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label8.Location = new Point(21, 274);
             label8.Name = "label8";
-            label8.Size = new Size(136, 31);
+            label8.Size = new Size(197, 31);
             label8.TabIndex = 16;
-            label8.Text = "Tu curp es:";
+            label8.Text = "CURP Generada:";
             // 
             // lblCurpGenerada
             // 
             lblCurpGenerada.AutoSize = true;
             lblCurpGenerada.Font = new Font("Segoe UI Black", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblCurpGenerada.ForeColor = Color.FromArgb(0, 123, 0);
-            lblCurpGenerada.Location = new Point(157, 274);
+            lblCurpGenerada.ForeColor = Color.FromArgb(0, 0, 192);
+            lblCurpGenerada.Location = new Point(229, 274);
             lblCurpGenerada.Name = "lblCurpGenerada";
-            lblCurpGenerada.Size = new Size(285, 31);
+            lblCurpGenerada.Size = new Size(284, 31);
             lblCurpGenerada.TabIndex = 17;
-            lblCurpGenerada.Text = "MOSR050311HGTRLCA0";
+            lblCurpGenerada.Text = "AENC050621HGTBXRA1";
             // 
             // ctlCurp
             // 
