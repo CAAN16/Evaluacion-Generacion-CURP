@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaCurp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecc1ec9a5e50591c977d95581a3b61384b5b0b31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e54512a44c1695c85ed8d2c3a82c58c655f7c67")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaCurp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaCurp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

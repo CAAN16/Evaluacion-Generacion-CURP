@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormTestCurp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e54512a44c1695c85ed8d2c3a82c58c655f7c67")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormTestCurp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormTestCurp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

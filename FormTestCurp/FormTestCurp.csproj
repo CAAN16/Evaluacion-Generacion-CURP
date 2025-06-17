@@ -11,7 +11,14 @@
   <ItemGroup>
     <Reference Include="BibliotecaCurp">
       <HintPath>..\..\Documents\GitHub\Evaluacion-Generacion-CURP\BibliotecaCurp\bin\Debug\net8.0-windows\BibliotecaCurp.dll</HintPath>
+      <Private>True</Private>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="BibliotecaCurp.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
