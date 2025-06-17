@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "j4dWKz415So=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carli\\Downloads\\FormTestCurp\\FormTestCurp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carli\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.300\\microsoft.net.sdk.compilers.toolset.9.0.300.nupkg.sha512"
+  ],
+  "logs": []
+}
